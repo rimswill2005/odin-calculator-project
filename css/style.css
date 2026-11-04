@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 300px;
+    margin: 40px auto;
+    font-family: sans-serif;
+}
+
+
+#display {
+    width: 100%;
+    text-align: right;
+    padding: 12px;
+    font-size: 24px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 6px;
+}
+
+
+button {
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
