@@ -1,47 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>odin-Calculator-Project</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="calculator">
+      <input id="display" value="0" readonly aria-label="Calculator display" />
 
+      <div class="buttons">
+        <button type="button" data-number="7">7</button>
+        <button type="button" data-number="8">8</button>
+        <button type="button" data-number="9">9</button>
+        <button type="button" data-operator="/">÷</button>
 
-    <div class="container">
-        <input id="display" type="text">
+        <button type="button" data-number="4">4</button>
+        <button type="button" data-number="5">5</button>
+        <button type="button" data-number="6">6</button>
+        <button type="button" data-operator="*">×</button>
 
+        <button type="button" data-number="1">1</button>
+        <button type="button" data-number="2">2</button>
+        <button type="button" data-number="3">3</button>
+        <button type="button" data-operator="-">−</button>
 
-        <div class="button">
-
-            <button class="button">9</button>
-            <button class="button">8</button>
-            <button class="button">7</button>
-            <button class="button">/</button>
-
-
-            <button class="button">6</button>
-            <button class="button">5</button>
-            <button class="button">4</button>
-            <button class="button">*</button>
-
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button">-</button>
-
-            <button class="button">clear</button>
-            <button class="button">0</button>
-            <button class="button">equals</button>
-            <button class="button">+</button>
-        </div>
-    </div>
-
-
-
+        <button type="button" data-action="clear">C</button>
+        <button type="button" data-number="0">0</button>
+        <button type="button" data-action="equals">=</button>
+        <button type="button" data-operator="+">+</button>
+      </div>
+    </main>
 
     <script src="./js/app.js"></script>
-    
-</body>
+  </body>
 </html>
